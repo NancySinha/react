@@ -1,5 +1,6 @@
 import React from 'react';
 import UserListContainer from '../Container/userlistconatiner'
+import UserDetailContainer from '../Container/userdetailcontainer';
 
 class MainComponent extends React.Component {
     state = {}
@@ -8,7 +9,9 @@ class MainComponent extends React.Component {
             <div>
                 <div>User list <UserListContainer></UserListContainer></div>
                 <hr></hr>
-                 <div> User Details (of the name clicked in the lsit)</div>
+                <div> User Details (of the name clicked in the lsit)
+                     <UserDetailContainer></UserDetailContainer>
+                </div>
             </div>
         );
     }

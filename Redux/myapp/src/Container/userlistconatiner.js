@@ -41,4 +41,4 @@ function convertStoreToProps(store) {
 
 
 
-    export default connect(convertStoreToProps,mapPropsToActionAndDispatchThem)(UserListContainer)
+    export default connect(convertStoreToProps,mapPropsToActionAndDispatchThem)(UserListContainer);
